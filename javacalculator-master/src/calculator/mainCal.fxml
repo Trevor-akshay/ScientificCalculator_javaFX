@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="369.0" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.40" fx:controller="calculator.mainCalController">
+   <children>
+      <TextField fx:id="number1Field" layoutX="127.0" layoutY="75.0" prefHeight="35.0" prefWidth="149.0" />
+      <TextField fx:id="number2Field" layoutX="127.0" layoutY="123.0" prefHeight="35.0" prefWidth="149.0" />
+      <TextField fx:id="resultField" layoutX="127.0" layoutY="173.0" prefHeight="35.0" prefWidth="149.0" />
+      <Label layoutX="39.0" layoutY="84.0" text="Number 1" />
+      <Label layoutX="39.0" layoutY="132.0" text="Number 2" />
+      <Label layoutX="50.0" layoutY="182.0" text="Result" />
+      <Button layoutX="127.0" layoutY="222.0" mnemonicParsing="false" onAction="#handleAddAction" prefHeight="25.0" prefWidth="27.0" text="+" />
+      <Button layoutX="208.0" layoutY="222.0" mnemonicParsing="false" onAction="#handleMultiAction" prefHeight="25.0" prefWidth="27.0" text="x" />
+      <Button layoutX="249.0" layoutY="222.0" mnemonicParsing="false" onAction="#handleDivtiAction" prefHeight="25.0" prefWidth="27.0" text="/" />
+      <Button layoutX="168.0" layoutY="222.0" mnemonicParsing="false" onAction="#handleSubtiAction" prefHeight="25.0" prefWidth="27.0" text="-" />
+   </children>
+</AnchorPane>
