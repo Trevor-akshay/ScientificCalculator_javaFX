@@ -4,4 +4,4 @@ As the name says,Its a Scientific calculator using javaFX giving it a modern loo
 
 Just another project in java!
 
-![Screenshot](preview.png)
+![Screenshot](preview.jpg)
